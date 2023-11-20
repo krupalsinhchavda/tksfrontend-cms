@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webtemplates",
+  "info": {
+    "singularName": "webtemplate",
+    "pluralName": "webtemplates",
+    "displayName": "Webtemplate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_title": {
+      "type": "string"
+    },
+    "filedownload": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

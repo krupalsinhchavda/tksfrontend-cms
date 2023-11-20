@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbartemplates",
+  "info": {
+    "singularName": "navbartemplate",
+    "pluralName": "navbartemplates",
+    "displayName": "navbartemplate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_title": {
+      "type": "string"
+    },
+    "madewith": {
+      "type": "string"
+    },
+    "htmlcode": {
+      "type": "text"
+    },
+    "csscode": {
+      "type": "text"
+    },
+    "filedownload": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
