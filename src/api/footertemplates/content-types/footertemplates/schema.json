@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footertemplate",
+  "info": {
+    "singularName": "footertemplates",
+    "pluralName": "footertemplate",
+    "displayName": "footertemplates",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_title": {
+      "type": "string"
+    },
+    "madewith": {
+      "type": "string"
+    },
+    "htmlcode": {
+      "type": "text"
+    },
+    "csscode": {
+      "type": "text"
+    },
+    "filedownload": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
