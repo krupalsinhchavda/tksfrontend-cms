@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loadertemplates",
+  "info": {
+    "singularName": "loadertemplate",
+    "pluralName": "loadertemplates",
+    "displayName": "loadertemplate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_title": {
+      "type": "string"
+    },
+    "madewith": {
+      "type": "string"
+    },
+    "htmlcode": {
+      "type": "text"
+    },
+    "csscode": {
+      "type": "text"
+    },
+    "filedownload": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
